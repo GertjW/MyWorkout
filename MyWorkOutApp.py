@@ -7,7 +7,7 @@ import time
 import pathlib
 
 data=''
-HOST_IP="192.168.1.48"
+HOST_IP="localhost"
 def SendToRemoteServer():
     global data
     sock=socket.socket(socket.AF_INET, socket.SOCK_STREAM)
