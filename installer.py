@@ -8,5 +8,7 @@ print("Setting up")
 
 time.sleep(3)
 
+Gepranked
+
 print("Installing MyWorkout")
 
